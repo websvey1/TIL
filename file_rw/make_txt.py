@@ -38,7 +38,26 @@
 
 ################################################################################
 ##절대 보지 말고 할것##
-f = open("multi.txt", "w", encoding = "utf-8") 
-for i in range(1, 6):
-    data = f'{i}번 째 줄입니다.\t'
-    f.write(data)
+# f = open("multi.txt", "w", encoding = "utf-8") 
+# for i in range(1, 6):
+#     data = f'{i}번 째 줄입니다.\t'
+#     f.write(data)
+
+
+# with open("new.txt", "w", encoding = 'utf-8') as f:
+#     for i in range(1, 11):
+#         data = f"({i}번째 줄입니다.\n"
+#         f.write(data)
+
+# with open("new.txt", "r", encoding = 'utf-8') as f:
+#     line = f.readline()
+#     print(line.strip())
+
+with open("new.txt", "r", encoding = 'utf-8') as f:
+    line = f.readlines()
+    for i in line:
+        print(i.strip())
+
+    # for i in range(1, 11):
+    #     lines = f.readlines()
+    #     print(lines.strip( ))
