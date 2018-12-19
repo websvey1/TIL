@@ -1,0 +1,35 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1 {
+     color: rgb(188, 121, 250);
+     background: lightcoral;
+}
+p {
+    color: darkblue;
+    background-image: none;
+}
+.p_tag {
+    background: lightgreen;
+}
+
+.text-center {
+    text-align: center
+}
+.text-large {
+    
+} 
+#lunch {
+    color: darkblue;
+
+}
+#dinner {
+    color: darkred:
+
+}
+.text-red {
+    color: rgb(255, 0, 0);
+}
+.text-blue {
+    color: blue;
+}

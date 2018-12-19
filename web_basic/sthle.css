@@ -1,0 +1,20 @@
+ /* h1, p {
+    color:rgb(205, 184, 63);
+} */
+/* body {
+    background: rgb(221, 172, 80);
+}
+
+#lunch {
+    color: aqua;
+} */
+.text-center {
+    text-align: center;
+}
+#dinner {
+    color: blue;
+    background: salmon;
+}
+.container {
+    background: rebeccapurple;
+}
