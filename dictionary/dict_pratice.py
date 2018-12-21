@@ -101,26 +101,27 @@ for name, temp in cities.items():
             hot_city = name
     count += 1
 print(f"{hot_city}, {cold_city}")
-    # for i in max(tmp):
-    #     if i > tmp:
-    #         i = tmp
-    #     else:
-    #         continue
+    for i in max(tmp):
+        if i > tmp:
+            i = tmp
+        else:
+            continue
 
     
-    # for i in tmp:
+    for i in tmp:
 
-    # if tmp :
-    #     print(name, tmp)
-    # else:
-    #     pass
-    # print(name, max(tmp))
+    if tmp :
+        print(name, tmp)
+    else:
+        pass
+    print(name, max(tmp))
 
-# scores = {
-#     "국어": 87,
-#     "영어": 92,
-#     "수학": 40
-# }
-# for key, value in scores.items():
-#     print(key)
-#     print(value)
+scores = {
+    "국어": 87,
+    "영어": 92,
+    "수학": 40
+}
+for key, value in scores.items():
+    print(key)
+    print(value)
+
