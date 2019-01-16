@@ -1,0 +1,30 @@
+3
+10 3
+1 2 3 4 5 6 7 8 9 10
+10 5
+6262 6004 1801 7660 7919 1280 525 9798 5134 1821 
+20 19
+3266 9419 3087 9001 9321 1341 7379 6236 5795 8910 2990 2152 2249 4059 1394 6871 4911 3648 1969 2176
+
+import sys
+sys.stdin = open("input_3.txt", "r")
+T = int(input())
+for test_case in range(1, T + 1):
+    N, M = map(int, input().split())
+    data = list(map(int, input().split()))
+    first = sum(data[0:M])
+    bottom = 0
+#    hap = 0
+    # print(N, data)
+    for i in range(1, len(data)-M+1):
+        a = data[i:i+M]
+        hap=0
+        for j in a:
+           hap += j
+    print(hap)
+    if first > hap:
+        bottom = hap
+    else:
+        first = hap
+        bottom = first
+    min_v = first - bottom
