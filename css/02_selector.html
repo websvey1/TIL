@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="02.css">
+</head>
+<body>
+    <p>select 실습, 글씨색 변경</p>
+    <h1>TAG 선택자의 컬러는 전체select(*)가아닌 h1태크 컬러를 받았다 . 즉 우선순위가 *이낮다. 순서바꿔도 동일.</h1>
+    <h2 class="pink">클래스 선택자도 위와 마찬가지.</h2>
+    <h3 id="green">id 선택자</h3>
+    <h3 id="green" class="pink">ID와 CLASS를 둘 다 주면?   우선순위 ID > CLASS > SELECT(*)</h3>
+    <h2 class="pink">CLASS와 TAG선택자 / 우선순위 CLASS > TAG == 범위가 클수록 우선순위가 낮다</h2>
+    <hr>
+    <p><span class="blue"> 파란색 </span>과<span id="green">초록색</span></p>
+    <p>span태그와 div태그는 모두 의미느 없지만, 마크업을 해야 css를 적용시킬 수 있기때문에 사용한다.
+        컴퓨터니까 특정 부분을 지정해줘야 하기 위해 서낵자가 필요하고, 그러기 위해선 마크업(지정)이 필요
+    </p>
+    <p class="bold">선택자 볼드체</p>
+    <p><strong>스트롱 볼드체</strong></p>
+    <p><b>볼드체</b></p>
+    <div class="blue pink">보기엔 다똑같지만 다른 이유 : strong태그를 남발하면 브라우저가 모든 부분을 중요하게 인식</div>
+    <div class="blue pink">여기 태그는 class pink와 blue를 줬는데 파랑색인 이유 : css상에서 blue가 더 최근에 만들어 졌기때문.</div>
+
+</body>
+</html>

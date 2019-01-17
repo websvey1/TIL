@@ -1,0 +1,22 @@
+* { 
+    color: cadetblue;
+}
+h1 {
+    color: cornflowerblue;
+}
+.pink {
+    color: deeppink;
+}
+#green {
+    color: darkolivegreen;
+}
+h2 {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+.bold {
+    font-weight: bold
+}
