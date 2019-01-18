@@ -20,45 +20,15 @@
 import sys
 sys.stdin = open("input_2.txt", "r")
 
-# T = int(input())
-# for test_case in range(1, T + 1):
-#     K, N, M= list(map(int, input().split()))
-#     M_num =  list(map(int, input().split()))
-#     print(M_num)
-#     c = [0]*N
-#     for i in range(len(M_num)):
-#         c[M_num[i]] += 1
-#         for j in range(len(c)):
-#             if c[j] == 0
-
 T = int(input())
-for tc in range(T):
-    ans = 0
-    k, n, m = map(int, input().split())
-    data = list(map(int, input().split()))
-    charge = [0] * (n + 1)
-    charge[n] = 1
+for test_case in range(1, T + 1):
+    K, N, M= list(map(int, input().split()))
+    M_num =  list(map(int, input().split()))
+    print(M_num)
+    c = [0]*N
+    for i in range(len(M_num)):
+        c[M_num[i]] += 1
+        for j in range(len(c)):
+            if c[j] == 0
 
-    # print(data)
-
-    for i in range(len(data)):
-        charge[(data[i])] = 1
-    # print(charge)
-    count = 0
-    point = k
-
-    while True:
-        if charge[point] != 1:
-            point += -1
-        elif charge[point] == 1:
-            count += 1
-            charge = charge[point:]
-        point = k
-        if len(charge) == k:
-            count += -1
-            break
-    if point == 0:
-        count = 0
-        break
-
-    print(f"#{n}{count}")
+T = int(inp
