@@ -24,11 +24,18 @@ T = int(input())
 for test_case in range(1, T + 1):
     K, N, M= list(map(int, input().split()))
     M_num =  list(map(int, input().split()))
-    print(M_num)
-    c = [0]*N
-    for i in range(len(M_num)):
-        c[M_num[i]] += 1
-        for j in range(len(c)):
-            if c[j] == 0
+    for i in range(1, len(M_num)):
+        M_num_difference = 0
+        if M_num[i] - M_num[i-1] > M_num_difference:
+            M_num_difference = M_num[i] - M_num[i-1]
+    if M_num_difference > K-1:
+         
+        # M_num_difference.append(M_num[i+1]-M_num[i])
+        print(M_num_difference)
+    # print(M_num)
+    # c = [0]*N
+    # for i in range(len(M_num)):
+    #     c[M_num[i]] += 1
+    # print(c)
 
-T = int(inp
+# T = int(inp
