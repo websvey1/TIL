@@ -28,7 +28,15 @@
 
 #     return digit[0]                       ### 반환
 #     return digit[0]                       ### 반환
-even_list = []
-for i in range(1, 6):
-    even_list.append(i*2) # 식
-print(even_list)
+# even_list = []
+# for i in range(1, 6):
+#     even_list.append(i*2) # 식
+# print(even_list)
+def solveMeFirst(a,b):
+    return  a + b
+
+
+num1 = int(input())
+num2 = int(input())
+res = solveMeFirst(num1,num2)
+print(res)
