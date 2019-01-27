@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    color: white;
+
+}
+
+.item {
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.item1 {
+    background-color: pink;
+}
+body {
+    height: 10000px;
+}
+.section {
+    height: 350px;
+    background-image: url('https://www.filmmakers.co.kr/files/attach/images/244/145/537/005/396c7380d71b8a152b625f03e332f4ab.jpg');
+    background-size: cover;
+    background-position: center;
+        }
+h2 {
+    line-height: 350px;
+    align-self: center;
+    color:tan;
+}
+.footer {
+    display:flex;
+    height: 50px;
+    width: 100%;
+    background-color: paleturquoise;
+}
+.font1 {
+    font-family: 'Nanum Myeongjo', serif;
+}
+.font2 {
+    font-family: 'Gothic A1', sans-serif;
+}

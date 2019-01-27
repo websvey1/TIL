@@ -1,0 +1,19 @@
+html {
+    font-size : 20px;
+}
+ol, ol li {
+    font-size: 1.2rem;
+    color: darkorange
+}
+
+ul, ul li {
+    font-size: 1.2em;
+}
+
+.vh {
+    font-size: 5vh;
+    color: rgba(red, green, blue, 100)
+}
+.vw {
+    font-size: 5vw;
+}
