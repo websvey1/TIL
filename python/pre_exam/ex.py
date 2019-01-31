@@ -23,54 +23,70 @@
 #         print(f"Circle: {self.get_center()}, r: {self.r}")
 
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
 
-class Circle:
-    def __init__(self, center, r):
-        self.center = center
-        self.r = r
+# class Circle:
+#     def __init__(self, center, r):
+#         self.center = center
+#         self.r = r
 
-    def get_area(self):
-        return self.r**2 * 3.14
-    def get_perimeter(self):
-        return self.r*2 * 3.14
-    def get_center(self):
-        return (self.center.x, self.center.y)
-    def print(self):
-        print(f'Circle: {self.get_center()} r: {self.r}')
-
-
+#     def get_area(self):
+#         return self.r**2 * 3.14
+#     def get_perimeter(self):
+#         return self.r*2 * 3.14
+#     def get_center(self):
+#         return (self.center.x, self.center.y)
+#     def print(self):
+#         print(f'Circle: {self.get_center()} r: {self.r}')
 
 
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
 
-class Circle:
-    def __init__(self, center, r):
-        self.center = center
-        self.r = r
+
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+# class Circle:
+#     def __init__(self, center, r):
+#         self.center = center
+#         self.r = r
     
+#     def get_area(self):
+#         return self.r **2 * 3.14
+    
+#     def get_perimeter(self):
+#         return self.r*2*3.14
+#     def get_center(self):
+#         return (self.center.x, self.center.y)
+#     def print(self):
+#         print(f'Circle: {self.get_center()}, r: {self.r}')
+
+
+
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+class Circle:
+    def __init__(self, center, r):
+        self.center = center
+        self.r = r
+
     def get_area(self):
         return self.r **2 * 3.14
-    
     def get_perimeter(self):
         return self.r*2*3.14
     def get_center(self):
         return (self.center.x, self.center.y)
     def print(self):
-        print(f'Circle: {self.get_center()}, r: {self.r}')
-
-
-
-
-
-
+        print (f'Circle: {self.get_center()}, r: {self.r}')
 
 
 
