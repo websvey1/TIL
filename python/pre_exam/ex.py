@@ -27,6 +27,7 @@
 #     def __init__(self, x, y):
 #         self.x = x
 #         self.y = y
+<<<<<<< HEAD
 
 # class Circle:
 #     def __init__(self, center, r):
@@ -72,6 +73,24 @@
 #     def __init__(self, x, y):
 #         self.x = x
 #         self.y = y
+=======
+
+# class Circle:
+#     def __init__(self, center, r):
+#         self.center = center
+#         self.r = r
+
+#     def get_area(self):
+#         return self.r**2 * 3.14
+#     def get_perimeter(self):
+#         return self.r*2 * 3.14
+#     def get_center(self):
+#         return (self.center.x, self.center.y)
+#     def print(self):
+#         print(f'Circle: {self.get_center()} r: {self.r}')
+
+
+>>>>>>> d4da4a45f22dadb16ffefa46582ef02dd0ba9448
 
 # class Circle:
 #     def __init__(self, center, r):
@@ -115,18 +134,39 @@
 #     def print(self):
 #         print(f'Circle:{self.get_center()}, r:{self.r}')
 
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+# class Circle:
+#     def __init__(self, center, r):
+#         self.center = center
+#         self.r = r
+    
+#     def get_area(self):
+#         return self.r **2 * 3.14
+    
+#     def get_perimeter(self):
+#         return self.r*2*3.14
+#     def get_center(self):
+#         return (self.center.x, self.center.y)
+#     def print(self):
+#         print(f'Circle: {self.get_center()}, r: {self.r}')
+
+
 
 
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-
+    
 class Circle:
     def __init__(self, center, r):
         self.center = center
         self.r = r
-    
+
     def get_area(self):
         return self.r **2 * 3.14
     def get_perimeter(self):
@@ -135,7 +175,16 @@ class Circle:
         return (self.center.x, self.center.y)
     
     def print(self):
+<<<<<<< HEAD
         print(f'Circle:{self.get_center()}, r:{self.r}')
+=======
+        print (f'Circle: {self.get_center()}, r: {self.r}')
+
+
+
+
+
+>>>>>>> d4da4a45f22dadb16ffefa46582ef02dd0ba9448
 
 
 
