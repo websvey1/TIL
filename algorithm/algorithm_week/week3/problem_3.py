@@ -15,3 +15,7 @@ for tc in range(1, T+1):
                 empty_list[i] += 1
     result = max(empty_list)
     print(f'#{tc} {result}')
+
+
+
+    ##################### dict 사용해보기

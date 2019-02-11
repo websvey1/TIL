@@ -1,3 +1,5 @@
+# [S/W 문제해결 기본] 3일차 - 회문2
+
 import sys
 from pprint import pprint
 # def hodol(data, 100, M):
@@ -18,9 +20,9 @@ for T in range(10):
             if data[i][start:end] != data[i][start:end][::-1]:
                 start += 1
                 for k in range(len(data)):
-                    data[i][start:end] != data[i][start:end][::-1]:
-                    start += 1
-            elif:
+                    if data[i][start:end] != data[i][start:end][::-1]:
+                        start += 1
+            # elif:
             else:
                 result = end - start
     print(result)
