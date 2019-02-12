@@ -11,4 +11,4 @@ for tc in range(1, 11):
         else:
             data[a[i]] += [a[i + 1]]
     print(data)
-# print(visit)
+# print(visit)iii
