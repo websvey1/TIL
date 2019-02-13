@@ -37,18 +37,4 @@ String, List, Tuple, Range, Set, Dictionary
 
 
 
-# workshop
-
-
-
-1. n = 5
-   m = 9
-   print(('*'*n+ '\n') * m)
-2. print(sum(student.values())/len(student))
-3. result = {}
-   for i in blood_types:
-      if i not in result:
-   ​       result[i] = 1
-      else:
-   ​       result[i] +=1
-   print(result)
+1. 
