@@ -1,3 +1,46 @@
+T = int(input())
+
+for tc in range(1, T + 1):
+    N = int(input())/10
+    L = [1,3]
+    for i in range(2, N):
+        L += list(L[N-1] + 2 * L[N-2])
+    print(f'#{tc}', L[N-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # def palindrome(word):
 #     if word == word[::-1]:
 #         return True
@@ -30,20 +73,20 @@
 # p2 = Person('둘리')
 # p2.greeting()
 
-class Circle():
-    def __init__(self, x, y=0):
-        self.x = x
-        self.y = y
-
-    def center(self, a=0, b=0):
-        return (a,b)
-
-    def move(self, a, b):
-        self.a = a
-        self.b = b
-        return (a, b)
-
-c1 = Circle(3)
-print(c1.center())
-print(c1.move())
+# class Circle():
+#     def __init__(self, x, y=0):
+#         self.x = x
+#         self.y = y
+#
+#     def center(self, a=0, b=0):
+#         return (a,b)
+#
+#     def move(self, a, b):
+#         self.a = a
+#         self.b = b
+#         return (a, b)
+#
+# c1 = Circle(3)
+# print(c1.center())
+# print(c1.move())
 

@@ -32,7 +32,7 @@ T = int(input())
 # print(T)
 for tc in range(1, T+1):
     data = input()
-    result = 0
+    result = 0  # 이아래로 다 없어도 됌
     goalho = []
     for i in data:
         if i == '(':
@@ -46,4 +46,4 @@ for tc in range(1, T+1):
     word = ''.join(goalho)
     # print(word)
 
-    print(f'#{tc} {test(word)}')
+    print(f'#{tc} {test(data)}')
