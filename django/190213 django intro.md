@@ -13,6 +13,10 @@ $ git config --global color.ui true
 
 https://github.com/djpy2/TIL/blob/master/doc/git.md 참고
 
+https://gist.github.com/edujunho/bee20c196ecacc3e8cdf068b4ec64d9f
+
+c9 설정
+
 ```bash
 pyenv virtualenv 3.6.7 django-venv
   => 가상환경 설정
