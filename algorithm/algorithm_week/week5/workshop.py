@@ -19,7 +19,8 @@ for tc in range(1, 11):
         # for l in range(len(re_data)):
         #     if re_data[l] == 1:
         #         result.append(re_data[l])
+        stack = []
     for j in range(len(data)):
         for k in range(len(data)):
             if data[k][j] == 2:
-                data[k][j] == 0
+                stack.append(data)

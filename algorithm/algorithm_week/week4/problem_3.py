@@ -24,7 +24,7 @@ for tc in range(1, 1+T):
     # if G ==data.pop(data.pop(S)):
     #     print("성공")
     # print(data.pop(S))
-    print(data)
+    # print(data)
     # print(f'{tc} {data} {S,G}')
     DFS(S)
     print(f'#{tc} {visit[G]}')
@@ -44,7 +44,7 @@ visit = [0 for _ in range(V+1)]
 
 S, G = 1,6
 DFS(S)
-print(f'#{tc} {visit[G]}')''' 테스트용
+print(f'#{tc} {visit[G]}')'''
 #
 # for tc in range(T):
 #     V, E = map(int, input().split())
@@ -62,3 +62,4 @@ print(f'#{tc} {visit[G]}')''' 테스트용
 #
 #
 #     print(f'#{tc+1} {visit[G]}')
+
