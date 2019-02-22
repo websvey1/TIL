@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a>제목 : {{ movies.title }}</a><br><br>
+    <a>누적관객수 : {{ movies.audience }}</a><br><br>
+    <a>장르 : {{ movies.genre }}</a><br><br>
+    <a>평점 : {{ movies.score }}</a><br><br>
+    <a>이미지 URL : {{ movies.poster_url }}</a><br><br>
+    <a>영화 소개 : {{ movies.description }}</a><br><br>
+    <a href="/movies/">목록</a>
+    <a href="#">수정</a>
+    <a href="/movies/{{ movies.pk }}/delete/" onclick="return confirm('정 말지 울 거니  ?')"> 삭제</a>
+</body>
+</html>

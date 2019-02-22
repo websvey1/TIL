@@ -74,7 +74,7 @@ wsgi(web server gateway interface) - 장고에서 사용하는 ㅎ웹서버 규�
 ---
 
 ```bash
-django를 할때는 할상 탭을 꺼주자. 탭 이름이 같은게 많다
+django를 할때는 항상 탭을 꺼주자. 탭 이름이 같은게 많다
 manage.py -> 장고 프로젝트와 다양한 방법으로 상호작용하는 커맨드라인 유틸리티
 
 프로젝트 이름 폴더(django_intro, first_workshop, study )

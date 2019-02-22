@@ -33,7 +33,3 @@ for tc in range(1, T+1):
 
     print(f'#{tc} {stack[0]}')
 
-
-    # print(data)
-
-    return render(request, board.board)
