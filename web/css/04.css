@@ -34,6 +34,7 @@ body {
     border-top-style: solid;
     border-left-style: inset;
     border-bottom-color: blue;
+    margin-bottom: 5px;
 }
 .circle {
     width: 200px;

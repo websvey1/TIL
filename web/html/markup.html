@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,31 +10,42 @@
         body {
             height: 10000px;
         }
-        table, tr, td {
-            border: 1px solid darkgray;
+
+        table,
+        tr,
+        td {
+            border: 1px solid blue;
         }
-        </style>
+    </style>
 </head>
+
 <body>
     <h1 id=edu>프로그래밍 교육</h1>
-    <a href="#move"target="blank">
-        <img src="images/image.png" width="50" height="50"  alt='blabla'>
+    <a href="#move" target="blank">
+        <img src="images/image.png" width="50" height="50" alt='blabla'>
     </a>
     <a href="reference.html">참고싸이트</a>
     <hr>
-    <div><h2><a href="https://docs.python.org/3/">파이썬</a></h2></div>
+
+    <div>
+        <h2><a href="https://docs.python.org/3/">파이썬</a></h2>
+    </div>
     <h4>Number type</h4>
-    <div><h5>파이썬에서 숫자형은 다음과 같다</h5></div>
+    <div>
+        <h5>파이썬에서 숫자형은 다음과 같다</h5>
+    </div>
     <ol style="list-style-type: hiragana">
         <li>int</li>
         <li>float</li>
         <li>complex</li>
         <li><del>str</del></li>
     </ol>
-    <div><h2>Sequences</h2></div>
+    <div>
+        <h2>Sequences</h2>
+    </div>
     <p>파이썬에서 시퀀스는 아래와 같이 있다</p>
     <h5><b>시퀀스는 for문을 돌릴 수 있다 !!</b></h5>
-    <ol>
+    <ol style="list-style-type: hiragana">
         <li>str</li>
         <li>list</li>
         <li>tuple</li>
@@ -46,7 +57,7 @@
     <ul style="list-style-type: lower-roman">
         <li>HTML</li>
         <li>CSS</li>
-        <li id = 'move'>파이썬</li>
+        <li id='move'>파이썬</li>
     </ul>
     <section id="link">
         <a href="https://www.google.com/" target="_self">절대URL</a>
@@ -56,7 +67,8 @@
     </section>
     <section>
         <img src="images/image.png" width="50px" height="50px" alt="python">
-        <iframe width="280" height="158" src="https://www.youtube.com/embed/CbNmRJCkwQs?start=6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/CbNmRJCkwQs?start=6" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section>
         <table>
@@ -78,7 +90,7 @@
             </tr>
         </table>
     </section>
-    
+
     <section>
         <h1>2019 타임테이블</h1><br>
         <table>
@@ -121,15 +133,21 @@
         </table>
         <!-- form 실습 -->
         <form action="https://www.google.com/search?">
-            텍스트 : <input type="text", name="q" autofocus><br><br>
+            텍스트 : <input type="text" , name="q" autofocus><br><br>
             이메일 : <input type="email" autocomplete="on"><br><br>
             비밀번호 : <input type="password"><br><br>
             날짜 : <input type="date"><br><br>
             <input type="hidden" name="해커" value="얘해커">
             <input type="submit" value="전송!"><br>
+
+
+
             <!-- radio 버튼 만들기 -->
             <input type="radio" name="gender" value="female" checked>여자<br>
             <input type="radio" name="gender" value="male">남자<br>
+
+
+
             <!-- check box -->
             <input type="checkbox" name="option" value="1">집<br>
             <input type="checkbox" name="option" value="2">가<br>
@@ -144,31 +162,32 @@
         </form>
     </section>
     <h1>FORM</h1><br>
-        <h3>주문서를 작성해 주십시오</h3>
+    <h3>주문서를 작성해 주십시오</h3>
     <form>
         이름 : <input type="text" name="이름입력" id=""><br>
-        날짜 : <input type="date" name="" id=" "value="2019-01-16">
+        날짜 : <input type="date" name="" id=" " value="2019-01-16">
 
         <h2>1. 샌드위치 선택</h2><br>
         <input type="radio" name="a" id="a" checked>에그 마요<br>
-        <input type="radio" name="a" id="b">이탈리안 비엠티<br>    <!--name값이 같고 id가 달라야 1개만 선택된다-->
+        <input type="radio" name="a" id="b">이탈리안 비엠티<br>
+        <!--name값이 같고 id가 달라야 1개만 선택된다-->
         <input type="radio" name="a" id="c">터키 베이컨 아보카도<br>
         <hr>
         <h2>2. 사이즈 선택</h2><br>
         <input type="number" name="size" min="15" max="30" step="15" value="15">
         <h2>3.빵</h3><br>
-        <select name="" id="">
-            <option value="" selected>허니오트</option>
-            <option value=""disabled>플랫브래드</option>
-            <option value="">하티 이탈리안</option>
-        </select>
-        <h2>야채 / 소스</h2><br>
-        <input type="checkbox" name="source" id="" value="1">토마토<br>
-        <input type="checkbox" name="source" id="" value="2">오이<br>
-        <input type="checkbox" name="source" id="" value="3">할라피뇨<br>
-        <input type="checkbox" name="source" id="" value="4">핫 칠리<br>
-        <input type="checkbox" name="source" id="" value="5">바베큐<br><br><br>
-        <input type="submit" value="전송!"><br>
+            <select name="" id="">
+                <option value="" selected>허니오트</option>
+                <option value="" disabled>플랫브래드</option>
+                <option value="">하티 이탈리안</option>
+            </select>
+            <h2>야채 / 소스</h2><br>
+            <input type="checkbox" name="source" id="aa" value="1">토마토<br>
+            <input type="checkbox" name="source" id="aa" value="2">오이<br>
+            <input type="checkbox" name="source" id="aa" value="3">할라피뇨<br>
+            <input type="checkbox" name="source" id="aa" value="4">핫 칠리<br>
+            <input type="checkbox" name="source" id="aa" value="5">바베큐<br><br><br>
+            <input type="submit" value="전송!"><br>
     </form>
     <table>
         <tr>
@@ -182,4 +201,5 @@
         </tr>
     </table>
 </body>
+
 </html>

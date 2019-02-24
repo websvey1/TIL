@@ -13,11 +13,11 @@
 }
 
 p.orientation::after {
-    content: '가로입니다'
+    content: '가로입니다';
 }
 @media (orientation: portrait) {
     p.orientation::after{
-        content:'세로입니다'
+        content:'세로입니다';
     }
 }
 
