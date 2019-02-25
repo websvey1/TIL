@@ -5,6 +5,7 @@ for tc in range(1,T+1):
     N = int(input())
     data_total = [[0 for _ in range(N)] for _ in range(N)]  # 5~27 데이터 받아오기
     # data_total = [list(map(int, input())) for i in range(N)]
+    # data_total = [[int(x) for x in input()] for _ in range(N)] #  강사님
 
     data = []
     miro = []

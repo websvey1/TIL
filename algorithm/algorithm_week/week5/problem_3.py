@@ -9,7 +9,7 @@ def compare(a,b):
     elif a > b:
         return a
     # elif a == b:
-    if
+    # if
     # 이부분을 재귀로 좀더 완성하면 될것같은데.
 
 
@@ -32,3 +32,4 @@ for tc in range(1, T+1):
             win_list.pop(j+1)
         else:
             win_list.pop(j)
+    print(win_list)
