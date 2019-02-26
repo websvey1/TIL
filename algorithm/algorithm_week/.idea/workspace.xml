@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e96820-c807-411c-a93f-1164cd9cefa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week6/make_queue(python).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week6/make_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/problem_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/problem_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/problem_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5/problem_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/problem_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5/problem_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/problem_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5/problem_3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +17,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week5/problem_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="216">
               <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/make_queue.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week6/problem_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week6/problem_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -64,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample_input.txt" />
-        <option value="$PROJECT_DIR$/input_3.txt" />
         <option value="$PROJECT_DIR$/190115 problem_1.py" />
         <option value="$PROJECT_DIR$/190115 problem_3.py" />
         <option value="$PROJECT_DIR$/input_3real.txt" />
@@ -115,10 +128,12 @@
         <option value="$PROJECT_DIR$/week5/problem_3.py" />
         <option value="$PROJECT_DIR$/week6/make_queue(python).py" />
         <option value="$PROJECT_DIR$/week6/make_queue.py" />
+        <option value="$PROJECT_DIR$/week6/problem_1.py" />
+        <option value="$PROJECT_DIR$/week6/problem_2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -131,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.make_queue">
+  <component name="RunManager" selected="Python.problem_2 (1)">
     <configuration name="make_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="problem_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="problem_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/problem_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/problem_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="problem_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="problem_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5/problem_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/problem_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_2 (1)" />
+        <item itemvalue="Python.problem_1 (1)" />
         <item itemvalue="Python.make_queue" />
         <item itemvalue="Python.make_queue(python)" />
         <item itemvalue="Python.problem_3 (1)" />
-        <item itemvalue="Python.problem_2" />
-        <item itemvalue="Python.problem_1" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +329,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2628205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25520262" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2527115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,8 +351,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../day5/문자열비교.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../day5/글자수.py" />
     <entry file="file://$PROJECT_DIR$/week3/problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -632,8 +645,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week5/problem_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="216">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/make_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/problem_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -644,10 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week6/make_queue.py">
+    <entry file="file://$PROJECT_DIR$/week6/problem_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="504">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
