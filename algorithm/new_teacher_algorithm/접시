@@ -1,0 +1,10 @@
+data = "()()()(((())()"
+result = 0
+for i in range(len(data)):
+    if i==0:
+        result = 10
+    elif data[i] != data[i-1]:
+        result += 10
+    elif data[i] == data[i-1]:
+        result +=5
+print(result)
