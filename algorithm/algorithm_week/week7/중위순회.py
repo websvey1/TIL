@@ -1,6 +1,12 @@
 import sys
 sys.stdin = open("중위순회.txt")
 
+def inorder(node):
+    if node !=0:
+        inorder(firstChild[node])
+        print("{}".format(node), end=" ")
+        inorder(secondChild[node])
+
 T = 10
 for tc in range(T):
     N = int(input())
@@ -14,7 +20,8 @@ for tc in range(T):
         alpha[addr] = ch
         if addr * 2 <= N:
             firstChild[addr] = int(temp[2])
-            if addr * 2 +1 <= N:
+            if addr * 2 + 1 <= N:
                 secondChild[addr] = int(temp[3])
 
-    print("#{}".format(tc+1), end=" ")
+    print("#{}".format(tc+1), end = " ")
+    inorder(1)
