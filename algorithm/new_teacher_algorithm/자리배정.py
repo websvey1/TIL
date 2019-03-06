@@ -41,25 +41,25 @@ else:
 
 
 
-# for i in range(len(data)):
-#     for j in range(len(data[i])):
-#         if data[i][j] == 0:
-#             data[i][j] = cnt
-#             cnt +=1
-#     if j == len(data[i])-1:
-#         for i in range(len(data)):
-#             if data[i][j] ==0:
-#                 data[i][j] = cnt
-#                 cnt +=1
-#         if i == len(data)-1:
-#             for j in range(len(data[i])):
-#                 if data[i][R-2-j] == 0:
-#                     data[i][R-2-j] = cnt
-#                     cnt += 1
-#             if j == len(data[i])-1:
-#                 # print(j)
-#                 for i in range(len(data)):
-#                     if data[C-2-i][0] == 0:
-#                         data[C-2-i][0] = cnt
-#                         cnt +=1
-# print(data)
+for i in range(len(data)):
+    for j in range(len(data[i])):
+        if data[i][j] == 0:
+            data[i][j] = cnt
+            cnt +=1
+    if j == len(data[i])-1:
+        for i in range(len(data)):
+            if data[i][j] ==0:
+                data[i][j] = cnt
+                cnt +=1
+        if i == len(data)-1:
+            for j in range(len(data[i])):
+                if data[i][R-2-j] == 0:
+                    data[i][R-2-j] = cnt
+                    cnt += 1
+            if j == len(data[i])-1:
+                # print(j)
+                for i in range(len(data)):
+                    if data[C-2-i][0] == 0:
+                        data[C-2-i][0] = cnt
+                        cnt +=1
+print(data)
