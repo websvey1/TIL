@@ -6,7 +6,7 @@ arr = [[1] * (N+2) for _ in range(N+2)]
 for i in range(1, N+1):
     arr[i] = [1] + list(map(int, input())) + [1]
 Darr = list(map(int, input().split()))
-
+print(Darr)
 Dno = 0
 dr = [0,1,0,-1,0]
 dc = [0,0,-1,0,1]

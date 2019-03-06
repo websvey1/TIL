@@ -10,10 +10,11 @@ N = int(input())
 data = [list(map(int,input())) for i in range(N)]
 d = list(map(int, input().split()))
 dno = 0
-dr = [1,0,-1,0]
-dc = [0,1,0,-1]
+dr = [0,1,0,-1,0]
+dc = [0,0,-1,0,1]
 a,b = 1,1
-
+cnt = 0
+print(d)
 for x in range(len(data)):
     data[x].append(1)
     data[x].insert(0,1)
@@ -21,14 +22,19 @@ data.append([1] * (N+2))
 data.insert(0, [1] * (N+2))
 
 while True:
-    if data[a+dr[dno]][b+dc[dno]] == 0:
+    if data[a+dr[d[dno]]][b+dc[d[dno]]] == 0:
         data[a][b] = 9
-        a = a+dr[dno]
-        b = b+dc[dno]
-    elif data[a+dr[dno]][b+dc[dno]] == 1:
+        a = a+dr[d[dno]]
+        b = b+dc[d[dno]]
+        cnt +=1
+    elif data[a+dr[d[dno]]][b+dc[d[dno]]] == 1:
         dno = (dno +1) % 4
-    else:
+    elif data[a+dr[d[dno]]][b+dc[d[dno]]] == 9:
+        data[a][b] = 9
+        a = a+dr[d[dno]]
+        b = b+dc[d[dno]]
         break
+
 
 
 
@@ -37,3 +43,4 @@ for x in range(len(data)):
     print(*data[x])
 
 
+print(cnt)
