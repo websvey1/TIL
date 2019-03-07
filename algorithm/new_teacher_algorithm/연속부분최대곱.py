@@ -7,6 +7,7 @@ data = [float(input()) for i in range(T)]
 for i in range(T):
     if comp * data[i] < 1:
         comp = 1
+
     else:
         if comp*data[i] > max_num:
             max_num = comp*data[i]
