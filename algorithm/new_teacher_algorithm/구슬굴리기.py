@@ -30,10 +30,15 @@ while data[x][y] !=0 and flag < N:
         x = x+dx[move[flag]]
         y = y+dy[move[flag]]
         cnt += 1
+
     elif data[x+dx[move[flag]]][y+dy[move[flag]]] == 1:
         flag += 1
     elif data[x+dx[move[flag]]][y+dy[move[flag]]] == 9:
         x = x+dx[move[flag]]
         y = y+dy[move[flag]]
+    elif data[x+dx[move[flag]]][y+dy[move[flag]]] == 2:
+        x = x+dx[move[flag]]
+        y = y+dy[move[flag]]
+print(cnt)
 # for i in range(len(data)):
 #     print(*data[i])
