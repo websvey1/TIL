@@ -1,33 +1,41 @@
 import sys
 sys.stdin = open("문제2.txt")
 
-def start(a):
-    for i in range(N):
-        for j in range(N):
-            if data[i][j] != 0:
-                return i,j
+def find_isd(x,y):
+    global result
+    stack.append(data[x][y])
+    data[x][y] = 0
+    dx = [0, 0, -1, 1]
+    dy = [-1, 1, 0, 0]
+    while stack:
+        for i in range(len(dx)):
+            if data[x+dx[i]][y+dy[i]] != 0:
+                find_isd(x+dx[i], y+dy[i])
+        break
+
+
+
+
+
 T = int(input())
-N = int(input())
-data = [list(map(int, input().split())) for _ in range(N)]
-# print(data)
+for tc in range(1,T+1):
+    N = int(input())
+    data = [list(map(int, input().split())) for _ in range(N)]
+    stack = []
+    result = 0
+    RESULT = []
+    MMAAXX = 0
+    # print(data)
 
-x,y = start(data)
-dx = [0,0,-1,1]
-dy = [-1,1,0,0]
 
-isd = 0
-for i in range(x,N):
-    for j in range(y,N):
-        cnt = 0
-        if data[i][j] != 0:
-            for k in range(len(dx)):
-                if data[i+dx[k]][j+dy[k]] == 0:
-                    cnt +=1
-                else:
-                    data[i][j] = 0
-                    break
-            if cnt == 4:
-                data[i][j] = 0
-                isd +=1
-print(isd)
-    # print(*data[i])
+
+    for i in range(len(data)):
+        for j in range(len(data[i])):
+            if data[i][j] != 0:
+                find_isd(i,j)
+                RESULT.append(stack)
+                stack= []
+    for i in range(len(RESULT)):
+        if MMAAXX < max(RESULT[i]):
+            MMAAXX = max(RESULT[i])
+    print('#%d %d %d' %(tc, len(RESULT), MMAAXX))
