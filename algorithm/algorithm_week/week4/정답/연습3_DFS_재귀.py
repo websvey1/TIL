@@ -12,7 +12,7 @@ sys.stdin = open("연습3_input.txt")
 n, e = map(int, input().split())
 n += 1
 temp = list(map(int, input().split()))
-
+# print('temp',temp)
 G = [[0 for i in range(n)] for j in range(n)] #2차원 초기화
 visited = [0 for i in range(n)]
 
