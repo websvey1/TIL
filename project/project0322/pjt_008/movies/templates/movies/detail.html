@@ -1,0 +1,49 @@
+{% extends 'movies/base.html' %}
+{% block title %}
+{% endblock %}
+{% block body %}
+{% load crispy_forms_tags %}
+    <h1>영화정보 조회</h1>
+    <h2> {{ movie.title }}</h2>
+    
+    {% if movie.score_acg %}
+        <h2> 종합 평점 : {{ movie.score_avg | floatformat:1 }}</h2>
+    {% else %}
+        <h2> 종합 평점 : 0</h2>
+    {% endif %}
+    
+    <h3>{{ movie.audience }}</h3>
+    <img src="{{ movie.poster_url }}"></img><br>
+    {{ movie.description }}
+    <br>
+    <b>{{ genre.name }}</b><br>
+    <a href="{% url 'movies:index' %}">[목록]</a>
+    <a href="{% url 'movies:update' movie.pk %}">[수정]</a>
+    
+    <form action="{% url 'movies:delete' movie.pk %}" method="POST" style="display:inline" onsubmit="return confirm('R E A L L Y ?');">
+        {% csrf_token %}
+        <input type="submit" value="삭제"/>
+    </form>
+    <hr>
+    {% for score in scores %}
+        <li>
+            한줄평 : {{ score.sontent }} / {{ score.score }}
+            <form style="display:inline" action="{% url 'movies:comments_delete' movie.pk score.pk %} " method='POST' onsubmit="return confirm('R E A L L Y ?');">
+                {% csrf_token %}
+                <input type="submit" value="삭제"/>
+            </form>
+        </li>
+    {% empty %}
+        <p><b>댓글이 없습니다</b></p>
+    {% endfor %}
+    <br>
+    <hr>
+    <h1>평점 등록하기 </h1>
+    
+    <form action="{% url 'movies:comments_create' movie.pk %}" method="POST">
+        {% csrf_token %}
+        내용 : {{ form.content }}
+        평점 : {{ form.score }}
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock %}
