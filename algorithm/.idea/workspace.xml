@@ -2,100 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b891d5b5-52bc-47a2-b385-4788d3876152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm_week/week10/bo_choong/사냥꾼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/도약.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/같은모양찾기(O).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/같은모양찾기(상).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/같은모양찾기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/구슬굴리기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/구슬굴리기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/달팽이사각형.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/달팽이사각형.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/더셈.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/덧셈.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/도너츠.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/도너츠.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/돼지먹이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/마을위성사진.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/마을위성사진.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제1(다시).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제2(다시).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/문제2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/미로탈출(중간).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/미로탈출(중간).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/반나누기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/반나누기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/배열정리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/빙고.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/빙고.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/사냥꾼.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/사냥꾼.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이배치.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/색종이배치.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/소수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/소수.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/숫자근.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/숫자맞추기(X).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/숫자맞추기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/스파이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/스파이.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/시간외근무수당.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/시간외근무수당.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/연속부분최대곱.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/연속부분최대곱.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/원안의마을.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/원안의마을.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/원안의사각형.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/원안의사각형.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/월동준비.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/월동준비.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/자리배정.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/자리배정.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/전자레인지.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/접시" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/snake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/개구리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/개구리.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/과수우너.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/과수우너.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/그릇.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/나는학급회장.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/나는학급회장.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/나는학생회장.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/덧셈.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/도넛츠.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/미로탈출(중간).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/미로탈출(중간).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/배부른돼지.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/배열정리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/비밀금고.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/색종이배치.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/색종이중.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/색종이초.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/숫자근.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/연속부분최대곱.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/전자레인지.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/조직도.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/정답/회전초밥중.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/줄세우기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/줄세우기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/폭탄돌리기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/폭탄돌리기.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/호수의깊이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/호수의깊이.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,62 +16,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1252257684">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="53" />
-          <entry key="txt" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="53" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="17590" />
-          <entry key="txt" value="94" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="17590" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.txt">
+        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="342">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py">
+        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1553683605299" expanded="true" signature="21:257" ph="..." />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -178,9 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm_week/week9/비트연산 두번.py" />
-        <option value="$PROJECT_DIR$/algorithm_week/week9/16진수.txt" />
-        <option value="$PROJECT_DIR$/algorithm_week/week9/16진수를 2진수로.py" />
         <option value="$PROJECT_DIR$/algorithm_week/week9/암호비트패턴.py" />
         <option value="$PROJECT_DIR$/algorithm_week/week9/암호코드.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/구슬굴리기.txt" />
@@ -223,19 +111,22 @@
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/정렬.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.txt" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.py" />
-        <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/도약.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.txt" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.py" />
         <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py" />
+        <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" />
+        <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.txt" />
+        <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.txt" />
+        <option value="$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="878" />
-    <option name="width" value="1049" />
-    <option name="height" value="1047" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -245,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.숫자찾기x">
+  <component name="RunManager" selected="Python.저글링">
     <configuration name="도약" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,6 +198,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_teacher_algorithm/AD/도약.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="숫자카운팅" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_teacher_algorithm/AD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="저글링" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_teacher_algorithm/AD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,7 +428,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\websv\Desktop\homework\TIL\algorithm\new_teacher_algorithm\AD\숫자찾기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -505,19 +438,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.숫자카운팅" />
       <item itemvalue="Python.숫자찾기x" />
       <item itemvalue="Python.도약" />
-      <item itemvalue="Python.미로탈출로봇" />
-      <item itemvalue="Python.사탕포장" />
+      <item itemvalue="Python.숫자카운팅" />
+      <item itemvalue="Python.저글링" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.숫자찾기x" />
-        <item itemvalue="Python.사탕포장" />
-        <item itemvalue="Python.미로탈출로봇" />
-        <item itemvalue="Python.도약" />
+        <item itemvalue="Python.저글링" />
         <item itemvalue="Python.숫자카운팅" />
+        <item itemvalue="Python.숫자찾기x" />
+        <item itemvalue="Python.도약" />
       </list>
     </recent_temporary>
   </component>
@@ -535,16 +466,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="878" y="0" width="1049" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16205534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12634408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3526201" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37554586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36011478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3558106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -557,20 +487,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm_week/week4/사다리(0320).py</url>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm_week/week4/사다리(0320).py</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm_week/week9/bo_chung/단어자리.py</url>
@@ -669,29 +591,28 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py</url>
+          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.py</url>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py</url>
+          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.py</url>
           <line>12</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week4/정답/연습3_DFS_재귀.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week4/정답/연습3_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -713,13 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/algorithm_week/week9/bo_chung/단어자리.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -789,262 +704,75 @@
     <entry file="file://$PROJECT_DIR$/algorithm_week/week9/이진수2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="526" column="4" selection-start-line="526" selection-start-column="4" selection-end-line="526" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/부분집합의 합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/반복을 재귀로 바꾸기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로(성원).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로(준석).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/정답/(1247)최적경로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/baby-gin(순열).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/순열2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <marker date="1553559181061" expanded="true" signature="15:20" ph="..." />
-            <marker date="1553559181061" expanded="true" signature="133:138" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/부분집합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최소합.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/baby-gin(순열).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/전기카트.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/전기카트.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <marker date="1553581732928" expanded="true" signature="10:193" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최소합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <marker date="1553565962555" expanded="true" signature="16:104" ph="..." />
-            <marker date="1553565962555" expanded="true" signature="262:359" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/컨테이너운반.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/컨테이너운반.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/화물도크.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/화물도크.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/bo_choong/사냥꾼.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <marker date="1553644945042" expanded="true" signature="16:104" ph="..." />
-            <marker date="1553644945042" expanded="true" signature="133:177" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/bo_choong/사냥꾼.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <marker date="1553651210424" expanded="true" signature="336:343" ph="..." />
-            <marker date="1553651210424" expanded="true" signature="336:683" ph="..." />
-            <marker date="1553651210424" expanded="true" signature="845:1414" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/부분집합의 합.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/반복을 재귀로 바꾸기.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로(성원).py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최적경로(준석).py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/정답/(1247)최적경로.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/baby-gin(순열).txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/순열2.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/부분집합.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최소합.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/baby-gin(순열).py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/전기카트.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/전기카트.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/최소합.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/컨테이너운반.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/컨테이너운반.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/화물도크.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/화물도크.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/bo_choong/사냥꾼.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_week/week10/bo_choong/사냥꾼.txt" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/정렬.py" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/도약.txt" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/도약.py" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.txt" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.py" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.txt" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.txt" />
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.py" />
     <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/도약.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자카운팅.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <marker date="1553669470335" expanded="true" signature="312:542" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/도약.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <marker date="1553669766060" expanded="true" signature="494:497" ph="..." />
-            <marker date="1553669766060" expanded="true" signature="746:764" ph="..." />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <marker date="1553680068516" expanded="true" signature="52:525" ph="..." />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/미로탈출로봇.txt">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="141">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.py">
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="162">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/사탕포장.txt">
+    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/저글링.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_teacher_algorithm/AD/숫자찾기x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1553683605299" expanded="true" signature="21:257" ph="..." />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
