@@ -33,8 +33,8 @@ for i in range(len(data)):
 data.append([0]*(C+2))
 data.insert(0, [0]*(C+2))
 a = BFS()
-for i in range(R):
-    for j in range(C):
+for i in range(R+2):
+    for j in range(C+2):
         if data[i][j] == 1:
             CNT +=1
 print(a+3)
