@@ -12,7 +12,7 @@ def BFS():
             if data[i][j] == 1: # 익은 토마토자리를 모두 시작점으로 큐에 저장
                 que.append((i, j,0))
             elif data[i][j] == 0: cnt +=1
-    if cnt == 0: return 0 # 모두 익힌 것
+    if cnt == 0: return 0 # 모두 익혀져 있는것
     while que:
         xx,yy,c = que.pop(0)
         for i in range(4):
