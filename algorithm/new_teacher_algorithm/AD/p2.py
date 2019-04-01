@@ -18,9 +18,15 @@ for tc in range(1,T+1):
                 hap6 = 0
                 hap4 = 0
                 hap2 = 0
-                for er in range(sr + 1, R):
-                    hap4 += data[er][mc]
-                    hap2 += data[er][sc]
-                    for ec in range(mc + 1, C):
-                        hap6 += data[er][ec]
-                        hap5 += data[sr][ec]
+            for er in range(sr + 1, R):
+                hap4 += data[er][mc]
+                hap2 += data[er][sc]
+            for ec in range(mc + 1, C):
+                hap6 += data[er][ec]
+                hap5 += data[sr][ec]
+            print(hap1, end=" ")
+            print(hap2, end=" ")
+            print(hap3, end=" ")
+            print(hap4, end=" ")
+            print(hap5, end=" ")
+            print(hap6)
