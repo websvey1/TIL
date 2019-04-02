@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('최소합.txt')
+sys.stdin = open('최소비용.txt')
 
 # def dfs1(n,hap): # 현재 행에서 모든 열을 사용하는 경우의 수
 #     global answer_b

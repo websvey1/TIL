@@ -6,6 +6,7 @@ def dfs(n, cnt):
     if n == N:
         if sum(box) == a:
             F = 1
+            print(box)
             return
         return
     box[cnt]=data[n]

@@ -17,7 +17,7 @@ def find(i,j,hap):
         find(i+1,j,hap)
 
 import sys
-sys.stdin = open("최소합.txt")
+sys.stdin = open("최소비용.txt")
 
 T = int(input())
 for tc in range(1,T+1):
