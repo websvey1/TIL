@@ -24,13 +24,10 @@ for i in range(len(point)):
                 sep_hap[2] += data[r][c]
             if r>a and c > b:
                 sep_hap[3] += data[r][c]
-    # print(point[i])
     # print(sep_hap)
-    # if sep_hap == [1,1,1,1]:
-    #     cnt +=1
-
-    if sep_hap[0] == sep_hap[1] and sep_hap[0] == sep_hap[1] and sep_hap[1] == sep_hap[2] and sep_hap[2] == sep_hap[3]:
+    if sep_hap[0] == sep_hap[1] and sep_hap[1] == sep_hap[2] and sep_hap[2] == sep_hap[3]:
         cnt +=1
-    elif cnt ==0:
-        cnt = -1
-print(cnt)
+if cnt:
+    print(cnt)
+else:
+    print(-1)
