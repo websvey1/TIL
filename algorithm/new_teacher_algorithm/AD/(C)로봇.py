@@ -12,6 +12,22 @@ def perm(x,n,hap):
                 a[i] = 1
                 perm(x+1, n, hap+data[x][i])
                 a[i] = 0
+#
+#
+# def perm(x,y,hap):
+#     global result
+#     if x == y:
+#         if hap<result:
+#             result = hap
+#         return
+#     else:
+#         for i in range(y):
+#             if a[i]:continue
+#             if hap+data[x][i] >result:continue # 이거랑 아래꺼랑 바꾸면 왜 안돼지??..
+#             a[i] = 1
+#             perm(x+1,y,hap+data[x][i])
+#             a[i]=0
+
 
 T = int(input())
 for tc in range(1,T+1):
@@ -20,6 +36,7 @@ for tc in range(1,T+1):
     robot = list(map(int, input().split()))
     data = [[0 for _ in range(N)]for _ in range(N)]
     a = [0]*N
+    rec = [0]*N
     result = float('inf')
     for i in range(N):
         for j in range(N):

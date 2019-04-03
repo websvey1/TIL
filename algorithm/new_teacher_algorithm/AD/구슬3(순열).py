@@ -4,14 +4,14 @@ b = [0, 0, 0] # 구슬을 담을 상자
 chk = [0, 0, 0] # 구슬 사용여부 체크
 N = 3
 def dfs(n):
-    if n == N:
+    if n == N:  #N은 고르는 개수 !!
         print(*b)
         return
     else:
         for i in range(N):
             if chk[i]: continue
-            chk[i] = 1
-            b[n] = a[i]
+            chk[i] = 1  #i번째 구슬을 사용할것
+            b[n] = a[i] #i번째 구슬을 b에 담는다.
             dfs(n+1)
             chk[i] = 0
 dfs(0)
@@ -29,7 +29,6 @@ dfs(0)
 #         DFS(no+1)
 #         chk[i] = 0    # 없으면 중복순열
 #     #2] a배열에서 0요소부터 N전요소전까지 고르는 모든 경우(단 구슬중복 배제)
-#
-#
-# # main ============================
 # DFS(0) # b[0]요소부터 담기 시작
+
+
