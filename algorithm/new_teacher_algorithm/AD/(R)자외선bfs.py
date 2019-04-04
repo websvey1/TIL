@@ -23,3 +23,4 @@ visit = [[float('inf')]*N for _ in range(N)]
 visit[0][0] = 0
 a = bfs(0,0)
 print(a)
+
