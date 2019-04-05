@@ -13,9 +13,9 @@ def BFS():
         for i in range(1, 4):
             nr = r+ dr[dir]*i
             nc = c + dc[dir]*i
-            if nr<0 or nr>=R or nc<0 or nc>=C : break
-            if chk[dir][nr][nc] : continue
-            if arr[nr][nc] ==1 : break
+            if nr<0 or nr>=R or nc<0 or nc>=C : break # 맵범위 벗어나면 break
+            if chk[dir][nr][nc] : continue #길이 맞지만, 방문햇다면 pass
+            if arr[nr][nc] ==1 : break  # 벽이면 break
             que.append((nr, nc, dir, cnt+1))
             chk[dir][nr][nc]=1
 
