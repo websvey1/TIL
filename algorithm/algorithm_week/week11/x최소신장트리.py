@@ -3,7 +3,7 @@ sys.stdin = open('최소신장트리.txt')
 def make_Set(v):
     global p
     p[v] = v
-def find_Set(n):  # n의 부모노드를 구하는 함수
+def find_Set(n):  # n의 부모노드를 구하는 함수d
     if n==p[n] : return n
     else: return find_Set(p[n])
 
