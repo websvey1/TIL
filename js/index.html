@@ -17,15 +17,16 @@
     <script>
         // alert('WELCOME TO JAVASCRIPT')
         // document.write('<h1>Gelllo, world!, i</h1>')
-        // document.querySelector('h1').innerText = 'Goodbye, World !'
-        // var name = 'harry'
+        // document.querySelector('h1').innerHTML = 'Goodbye, World !'
+        // // document.querySelector('h1').appendChild('Goodbye, World !')
+        // // var name = 'harry'
         // let word = '외않ㄴ되';
         // document.write(word);
 
         // word = '왜안돼'
         // document.write(word);
 
-        // const name = 'HO';
+        // const name = 'HO';       // 위의 변수와 겹처서 안된다
         // document.write(name);
 
         // name = 'HODOL' // 변수 : 식별자
@@ -37,14 +38,14 @@
         // const fullName = firstName + lastName;
         // document.write('<h1>' + fullName + '!!' + '</h1>');
         // // document.write(fullName) 이것도 되는데 h1태그가 없을뿐
-        // // template literal 
+        // // template literal  // python의 f-string
         // document.write(`<h1>${fullName}!!</h1>`); 
         // console.log(`Console ${fullName}`); // 콘솔에 뜸(크롬 개발자도구-콘솔)
 
 
-        // const userName = prompt('Hello! Who r u??');       // input같은 느낌.
-        // let message = `<h1>Hello ${userName}</h1>`;       // input값을 받아 message로 저장
-        // document.write(message);                           // 출력.
+        const userName = prompt('Hello! Who r u??');       // input같은 느낌.
+        let message = `<h1>Hello ${userName}</h1>`;       // input값을 받아 message로 저장
+        document.write(message);                           // 출력.
 
                                 
         // 조건분기 //
@@ -62,8 +63,8 @@
         // 삼항연산자
         // Boolean ? True : False
         // num이 10이면  True 실행, 아니면 False 실행
-        const number = 9
-        number === 10 ? document.write('넘버는 10!') : document.write('넘버는 10이 아니야!')
+        // const number = 9
+        // number === 10 ? document.write('넘버는 10!') : document.write('넘버는 10이 아니야!')
         
 
         // arrow function
@@ -80,12 +81,12 @@
         // const mul = (num1, num2) => num1 * num2
 
         // 익명함수(1회용함수)
-        function (num) {
-            return num ** 3
-        }
-        num => num ** 3 // 익명함수
-        (num => num ** 3)(#) // 익명함수 즉시실행
-        const cube = num => num **3 // 익명함수에 이름지어주기(기명 함수)
+        // function (num) {
+        //     return num ** 3
+        // }
+        // num => num ** 3 // 익명함수
+        // (num => num ** 3)(#) // 익명함수 즉시실행
+        // const cube = num => num **3 // 익명함수에 이름지어주기(기명 함수)
         
         
 
