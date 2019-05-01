@@ -31,3 +31,29 @@ let getMinFromArray = nums => {
 }
 ssafy = [1,2,3,4,5,]
 console.log(getMinFromArray(ssafy))
+
+
+
+
+
+
+// home work shop 
+const concat = function(num1,num2){
+    return `${num1} - ${num2}`
+}
+
+
+const check_long_str = function(string) {
+    if (string.length >10){       // leng이 아니라 length
+        return true            // t가 대문자가 아님
+    }else {
+        return false          // f도
+    }
+}
+if (check_long_str(concat('Lee', 'Ho'))){
+        console.log('Long string')   // print가 아니라 console.log
+    }
+else {
+        console.log('short stiong')
+    }
+concat('LEE',"HO")
