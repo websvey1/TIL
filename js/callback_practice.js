@@ -39,19 +39,19 @@ var numbers = [1,2,3,4,5,]
 
 //////////////////////////////////////////////////////////////   222       ////////////////////////////////////////////////////////
 // //숫자로 이루어진 배열의 요소들은 각각 [??]한다
-// const numbersEach = (numbers, callback) =>{
-//     let acc
-//     for (const number of numbers){
-//         acc= callback(number, acc) // 
-//     }
-//     return acc
-// }
-// // 더한다
-// const addEach = (number, acc=0) => {
-//     return acc + number
-// }
-// numbersEach(numbers, addEach)
-// console.log(numbersEach(numbers, addEach))
+const numbersEach = (numbers, callback) =>{
+    let acc
+    for (const number of numbers){
+        acc= callback(number, acc) // 
+    }
+    return acc
+}
+// 더한다
+const addEach = (number, acc=0) => {
+    return acc + number
+}
+numbersEach(numbers, addEach)
+console.log(numbersEach(numbers, addEach))
 
 // //뺀다
 // const subEach = (number, acc=0) => {
@@ -71,16 +71,16 @@ var numbers = [1,2,3,4,5,]
 //////////////////////////////////////////////////////////////   333333       ////////////////////////////////////////////////////////
 
 // numbersEach 이후의 제어를 우리가 함수저의 없이 매번 자유롭게 하려면?
-const NUMBER = [1,2,3,4,5,]
-const numbersEach = (numbers, callback) => {
-    let acc
-    for (let i =0; i<numbers.length; i++){
-        number = numbers[i]
-        acc = callback(number, acc)
-    }
-    return acc
-}
-console.log(numbersEach(NUMBER, (number, acc=0) => acc+number))
-console.log(numbersEach(NUMBER, (number, acc=0) => acc-number))
-console.log(numbersEach(NUMBER, (number, acc=1) => acc*number))
+// const NUMBER = [1,2,3,4,5,]
+// const numbersEach = (numbers, callback) => {
+//     let acc
+//     for (let i =0; i<numbers.length; i++){
+//         number = numbers[i]
+//         acc = callback(number, acc)
+//     }
+//     return acc
+// }
+// console.log(numbersEach(NUMBER, (number, acc=0) => acc+number))
+// console.log(numbersEach(NUMBER, (number, acc=0) => acc-number))
+// console.log(numbersEach(NUMBER, (number, acc=1) => acc*number))
 //////////////////////////////////////////////////////////////   333333       ////////////////////////////////////////////////////////

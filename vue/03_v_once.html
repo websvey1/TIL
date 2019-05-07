@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-pre</title>
+</head>
+<body>
+    <div id='app'>
+        <h1 v-if="key > 5"> key가 5보다 크네요?</h1>
+        <h1 v-else-if="key === 5"> key값이 5</h1>
+        <h1 v-else> key가 5보다 작네요?</h1>
+        <h1 v-pre>{{ 여기는 그대로 렌더링 해주세요 }}</h1>   <!-- {{ }} 안에 변수명이 존재하지 않아도 무시하고, 강제로 출력한다.-->
+        <h1 v-once>초기값: {{ key }}</h1> <!-- 초기에 설정한 값이 안변함-->
+        <h1> 현재값: {{ key }}</h1>  <!--수시로변함-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data:{
+                key:0,
+            }
+        })
+    </script>
+
+</body>
+</html>

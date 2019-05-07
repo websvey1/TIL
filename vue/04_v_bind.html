@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-bind</title>
+    <style>
+         img {
+             width:300px;
+             height: 300px;
+         }
+    </style>
+</head>
+<body>
+    <div id='app'>
+        <h1>Hello, {{ name }}</h1>
+        <h2>{{ Date() }}</h2>
+        <h3><input type="checkbox" v-model='emotion'>누르면 행복해집니다</h3>
+        <img v-bind:src="emotion ? happy : sad">
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data:{
+                name:'Vue',
+                emotion:true,
+                happy:'http://pngriver.com/wp-content/uploads/2018/04/Download-Happy-PNG-Photo.png',
+                sad:'http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4c2.png'
+            }
+        })
+    </script>
+
+</body>
+</html>
