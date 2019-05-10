@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open('더하기.txt')
+# import sys
+# sys.stdin = open('더하기.txt')
 def dfs(n, cnt):
     global F
     if F : return  # 가지치기
