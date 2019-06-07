@@ -17,6 +17,6 @@
 // }
 
 int main(){
-    int a = 'asd';
-    printf("%s", a);
+    int a = 'a';
+    printf("%c", a);
 }
