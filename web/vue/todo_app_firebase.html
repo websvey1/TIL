@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+    <script>
+        const config={
+            apiKey:"AIzaSyBo7e2G1ejE3sSuwPre7g_MppI-oVFnXuE",
+            projectId:"websvey1-todo",
+            databaseURL:"https://websvey1-todo.firebaseio.com/",
+        }
+        firebase.initializeApp(config)
+    </script>
+    
+    <style>
+        .completed {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div v-bind:style="{ color: activeColor, fontSize:fontSize + 'px' }"></div>
+    <div id="app">
+        <select v-model="status">
+            <option value="all" selected>all</option>
+            <option value="active">active</option>
+            <option value="completed">completed</option>
+        </select>
+
+        <li v-for="todo in todosByStatus" v-bind:class="{completed: todo.completed }" v-bind:key="todo.id">
+            <input type="checkbox" v-model='todo.completed' @change="updateTodo(todo)">
+            <span>{{ todo.content }}</span>
+        </li>
+        <!-- <li v-else v-on:click="check(todo)">[완료!]    </li> -->
+        <input type="text" v-model="newTodo" v-on:keyup.enter="addTodo">
+        <!-- input에 넣은 값이 todos에 추가는 되지만, input이 초기화 되지는 않음(입력값이 남아있음) -->
+        <!-- 아래 this.newTodo= '' 추가하면 해결 -->
+        <button @click="addTodo">+</button>
+        <footer>
+            <button @click="clearCompleted">청소</button>
+            <!-- <span>{{ reversedNewTodo }}</span> -->
+        </footer>
+        
+    </div>
+    <script>
+        const database = firebase.database()   // 우리가 쓸 데이터베이스
+
+        const app = new Vue({
+            el: '#app',
+            data :{
+                newTodo:'',
+                status:'all',
+                activeColor:'red',
+                fontSize: 30,
+                todos :[
+                    
+                    // 이거랑 위에랑 뭔차이지??
+                //     '점심메뉴고민', 
+                //     '사다리타기',
+                //     '야외수어밯기',
+                //     '야자하기'
+                ],
+                
+                
+            },
+            firebase:{
+                todos: database.ref('todos'),
+            },
+            methods: {
+                check: function (todo){
+                    todo.completed = !todo.completed
+                },
+                addTodo:function () {
+                    if (this.newTodo) {
+                        this.$firebaseRefs.todos.push({
+                            id: Date.now(),
+                            content: this.newTodo,
+                            completed:false,                        
+                        })    
+                    }   
+                    this.newTodo = ''                    
+                },
+                clearCompleted:function () {
+                    let len= this.todos.length;
+                    for (let i  = len-1; i >= 0; i--) {
+                        let todo = this.todos[i];
+                        if (todo.completed) {
+                            this.$firebaseRefs.todos.child(todo['.key']).remove()
+                        }
+                    }                    
+                    // this.todos.forEach(todo => {
+                    //     if (todo.completed) {
+                    //         this.$firebaseRefs.todos.child(todo['.key']).remove()
+                    //     }
+                    // })
+                    // const notCompletedTodos = this.todos.filter(todo => !todo.completed)
+                                    // !todo.completed == 값이 false인것만 찾아서 todos에 넣어줌
+                                    // 즉 , 값이 true인것 제거
+                    // this.todos = notCompletedTodos // 이부분이 실행되는 과정은?
+                },
+                updateTodo: function (todo){
+                    const newTodo = { ...todo }
+                    delete newTodo['.key']
+                    this.$firebaseRefs.todos.child(todo['.key']).set(Newtodo)
+                }
+                
+            },
+            computed: {                
+                todosByStatus: function () {
+                    if (this.status === 'active') {
+                        return this.todos.filter(todo => !todo.completed)
+                    }
+                    if (this.status === 'completed') {
+                        return this.todos.filter(todo => todo.completed)
+                    }
+                    return this.todos
+                },
+                reversedNewTodo: function () {
+                    return this.newTodo.split('').reverse().join('')
+                },
+
+            },
+            watch: {
+                todos: {
+                    handler: function(todos){
+                        todoStorage.save(todos)
+                    },
+                    deep:true,
+                }
+            }
+        })
+    </script>
+</body>
+</html>

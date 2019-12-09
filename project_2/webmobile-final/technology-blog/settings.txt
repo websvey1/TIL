@@ -1,0 +1,3 @@
+npm install --save vue-dragscroll
+
+npm install vue-resource

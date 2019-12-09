@@ -1,0 +1,108 @@
+@-webkit-keyframes left-DoorOpen {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(-45deg); } }
+  
+  @-moz-keyframes left-DoorOpen {
+    0% {
+      -moz-transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      -moz-transform: perspective(400px) rotateY(-45deg); } }
+  
+  @keyframes left-DoorOpen {
+    0% {
+      transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      transform: perspective(400px) rotateY(-45deg); } }
+  
+  @-webkit-keyframes right-DoorOpen {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(45deg); } }
+  
+  @-moz-keyframes right-DoorOpen {
+    0% {
+      -moz-transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      -moz-transform: perspective(400px) rotateY(45deg); } }
+  
+  @keyframes right-DoorOpen {
+    0% {
+      transform: perspective(400px) rotateY(0deg); }
+  
+    100% {
+      transform: perspective(400px) rotateY(45deg); } }
+  
+  html, body, .door {
+    margin: 0;
+    padding: 0;  
+    overflow: hidden;
+    height: 100%; }
+  
+  body {
+    background: url(inside.jpg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;  
+  }
+  
+  .wall {
+    height: 100%;
+    background-color: #CECECE;
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brick_wall_close-up_view.jpg/1920px-Brick_wall_close-up_view.jpg); }
+  
+  .wall.right {
+    height: 100%;
+    background-color: #CECECE;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    z-index: 1; }
+  
+  .door {
+    float: left;
+    width: 50%;
+    position: relative;
+    background: url(test_res.png) 50%/ cover;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s; }
+  
+  .door-handle {
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #DDD;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    margin: -50px 0 0 0; }
+  
+  .door-handle.right {
+    left: 25px;
+    right: 0; }
+  
+  .left-DoorOpen {
+    -webkit-animation-name: left-DoorOpen;
+    -moz-animation-name: left-DoorOpen;
+    animation-name: left-DoorOpen; }
+  
+  .right-DoorOpen {
+    -webkit-animation-name: right-DoorOpen;
+    -moz-animation-name: right-DoorOpen;
+    animation-name: right-DoorOpen; }
