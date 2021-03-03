@@ -14,7 +14,7 @@
     "mongoose": "^5.7.6",
     "mongoose-auto-increment": "^5.0.1",
     "morgan": "~1.9.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "vue-cli": "^2.9.6"
   }
 }
